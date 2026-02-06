@@ -1,2 +1,2 @@
-brew tap 你的用户名/tap
-brew install your-tool
+brew tap tardigrade-dot/tap
+brew install aphelios_cli
