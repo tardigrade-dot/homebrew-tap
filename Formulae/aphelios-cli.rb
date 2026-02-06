@@ -1,4 +1,4 @@
-class YourApp < Formula
+class aphelios_cli < Formula
   desc "Rust 编写的工具描述"
   homepage "https://github.com/tardigrade-dot/aphelios_cli"
   version "0.1.0"
