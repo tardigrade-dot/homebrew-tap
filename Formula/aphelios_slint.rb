@@ -1,7 +1,7 @@
 class ApheliosSlint < Formula
   desc "Rust 编写的工具描述"
   homepage "https://github.com/tardigrade-dot/aphelios_cli"
-  version "0.1.0"
+  version "0.1.2"
 
   # 针对不同架构定义下载地址
   if OS.mac?
