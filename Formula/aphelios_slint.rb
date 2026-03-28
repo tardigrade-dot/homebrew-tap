@@ -6,8 +6,8 @@ class ApheliosSlint < Formula
   # 针对不同架构定义下载地址
   if OS.mac?
 
-    url "https://github.com/tardigrade-dot/aphelios_cli/releases/download/v0.0.1/aphelios_slint-x86_64-apple-darwin.tar.gz"
-    sha256 "d820d340d491a301d2afbc7623633a60d79e8697c58806fdd627cc7f2c3021a4"
+    url "https://github.com/tardigrade-dot/aphelios_cli/releases/download/v0.0.2/aphelios_slint-x86_64-apple-darwin.tar.gz"
+    sha256 "bc2787304be6502ba6097ff4d5833f45b66a827119663c8fe8dc4491cdb176d1"
   end
 
   def install
