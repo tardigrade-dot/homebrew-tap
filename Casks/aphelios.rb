@@ -18,4 +18,9 @@ cask "aphelios" do
     "~/Library/Application Support/aphelios",
     "~/Library/Preferences/com.aphelios.plist",
   ]
+
+  caveats <<~EOS
+    如果打开时显示“已损坏”，请在终端执行：
+    sudo xattr -rd com.apple.quarantine #{appdir}/Aphelios.app
+  EOS
 end
