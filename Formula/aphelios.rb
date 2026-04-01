@@ -1,4 +1,4 @@
-class ApheliosSlint < Formula
+class Aphelios < Formula
   desc "Aphelios AI Assistant - macOS App"
   homepage "https://github.com/tardigrade-dot/aphelios_cli"
   version "0.0.3"
@@ -6,7 +6,7 @@ class ApheliosSlint < Formula
   # 针对不同架构定义下载地址
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/tardigrade-dot/aphelios_cli/releases/download/v#{version}/aphelios-macos-arm64.zip"
-    sha256 "sha256:5fca5ded13b7ca1cdf907aa197b6f5ab7f180a9ab2964566a664462b7df3ff1a"
+    sha256 "5fca5ded13b7ca1cdf907aa197b6f5ab7f180a9ab2964566a664462b7df3ff1a"
   end
 
   depends_on macos: :catalina
