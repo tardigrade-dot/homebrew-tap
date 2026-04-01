@@ -1,13 +1,13 @@
 class ApheliosTool < Formula
   desc "Rust 编写的工具描述"
   homepage "https://github.com/tardigrade-dot/aphelios_cli"
-  version "0.1.0"
+  version "0.0.3"
 
   # 针对不同架构定义下载地址
   if OS.mac?
 
-    url "https://github.com/tardigrade-dot/aphelios_cli/releases/download/v0.0.1/aphelios_tool-x86_64-apple-darwin.tar.gz"
-    sha256 "a785d006915617d51ad5e0b819b1413ce211ef43b79028a5a7a506923b3de082"
+    url "https://github.com/tardigrade-dot/aphelios_cli/releases/download/v0.0.3/aphelios-tool-macos-arm64.tar.gz"
+    sha256 "5bad98d0ee1e82b52a173def6cfd18294d5a34b26adeeec9b8996671a8f0fb31"
   end
 
   def install
